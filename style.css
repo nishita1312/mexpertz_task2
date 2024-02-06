@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFC90D;
+}
+.btn1{
+   background-color: #2F2E2E;
+   height: 45px;
+   width: 400px;
+   border-radius: 15px;
+   color: #E8E6E7;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   font-size: 20px;
+   position: absolute;
+   bottom: 110px;
+   left: 60px;
+}
+.box-form{
+    width: 320px;
+    height: 359px;
+    background-color: #E8E6E7;
+    position: absolute;
+    left: 890px;
+    bottom: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+  
+}
+.form button{
+    background-color: #f10ecb;
+    color: #E8E6E7;
+    border-color: #f10ecb;
+    padding-left: 60px;
+    text-align: center;
+    padding-right: 60px;
+    height: 40px;
+}
+.faq-box{
+    width: 99%;
+    height: 2134px;
+    background-color: #2F2E2E;
+    border-radius: 10px;
+    position: absolute;
+    top: 744px;
+    left: 7px;
+}
+
+.faq-box #faq-id{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #E8E6E7;
+    padding: 50px;
+    font-size: 50px;
+}
+.faq-ques{
+    width: 914px;
+    height: 1870px;
+    color: #E8E6E7;
+    position: absolute;
+    top: 150px;
+    left: 290px;
+    font-size: 15px;
+    
+}
+    
+.faq-ques i{
+    color: #FFC90D;
+    padding-left: 26rem;
+    font-size: 20px;
+   
+
+
+}
+.faq-ques #answers{
+    font-size: 13px;
+    padding-top: 20px;
+}
+.faq-ques p {
+    cursor: pointer;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.faq-ques input[type="checkbox"] {
+    display: none;
+}
+
+.faq-ques label p + .answer {
+    display: none;
+}
+
+.faq-ques input[type="checkbox"]:checked + label p + .answer {
+    display: block;
+    padding-top: 20px;
+}
+
+.faq-ques input[type="checkbox"]:checked + label p i {
+    transform: rotate(180deg);
+    color: #f10ecb;
+    padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 600px){
+    body{
+        height: 100%;
+        width: auto;
+        background-color: #FFC90D;
+    }
+    .img-div img{
+        display: flex;
+        justify-content: space-evenly;
+        height: 400px;
+        width: 400px;
+    }
+    .btn1{
+        position: absolute;
+        bottom: 400px;
+        text-align: center;
+    }
+}
